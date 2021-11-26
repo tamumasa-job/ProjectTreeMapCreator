@@ -8,7 +8,7 @@ class ProfileArgs(args: Array<String>) {
         args.forEach { arg ->
             val params = arg.split("=")
             when(params.firstOrNull()) {
-                "--path" -> path = params.getOrNull(1) ?: return@forEach
+                "--path", "-p" -> path = params.getOrNull(1) ?: return@forEach
                 "--name", "-n" -> fileName = params.getOrNull(1) ?: "output.pu"
                 "--depth", "-d" -> depth = params.getOrNull(1)?.toIntOrNull()
             }
