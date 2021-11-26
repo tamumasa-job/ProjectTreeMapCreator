@@ -7,4 +7,4 @@ RUN apk add --no-cache curl fontconfig graphviz ttf-dejavu \
     && fc-cache -fv
 COPY . .
 VOLUME ["/docs"]
-ENTRYPOINT ["java", "-jar", "./lib/plantuml/plantuml-1.2021.14.jar", "output", "-o", "../docs/uml"]
+ENTRYPOINT ["java", "-jar", "./lib/plantuml/plantuml-1.2021.14.jar", "plantuml", "-o", "../docs/uml"]

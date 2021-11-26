@@ -1,0 +1,41 @@
+@startsalt
+{
+{T
++ProjectTreeMapCreator
+++ docs
++++ uml
+++ gradle
++++ wrapper
+++ .gradle
++++ vcs-1
++++ buildOutputCleanup
++++ checksums
++++ 7.1
+++++ executionHistory
+++++ vcsMetadata-1
+++++ fileChanges
+++++ dependencies-accessors
+++++ fileHashes
+++ lib
++++ plantuml
++++ project-tree-map-creator
+++ build
++++ classes
+++++ kotlin
++++ kotlin
+++++ sessions
+++++ compileKotlin
++++ libs
++++ tmp
+++++ shadowJar
+++ .idea
+++ src
++++ test
+++++ resources
+++++ kotlin
++++ main
+++++ resources
+++++ kotlin
+}
+}
+@endsalt

@@ -42,7 +42,7 @@ data class Directories(val directoryList: ArrayList<Directory>) {
         val root = directoryList.filterIsInstance<Directory.RootDirectory>().firstOrNull() ?: return
         val output = arrayListOf<String>()
         recursiveTaskForPlantUml(output, root)
-        val outputDir = File("output")
+        val outputDir = File("plantuml")
         outputDir.mkdir()
         val file = File(outputDir, fileName)
         runCatching {
