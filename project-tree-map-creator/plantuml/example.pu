@@ -3,15 +3,28 @@
 {T
 +ProjectTreeMapCreator
 ++ plantuml
+++ creator
++++ .idea
 ++ docs
 +++ uml
 ++ project-tree-map-creator
 +++ plantuml
 +++ gradle
+++++ wrapper
 +++ .gradle
+++++ vcs-1
+++++ buildOutputCleanup
+++++ checksums
+++++ 7.1
 +++ build
+++++ classes
+++++ kotlin
+++++ libs
+++++ tmp
 +++ .idea
 +++ src
+++++ test
+++++ main
 ++ lib
 +++ plantuml
 +++ project-tree-map-creator
