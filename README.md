@@ -3,6 +3,10 @@
 ```shell
 $ java -jar lib/project-tree-map-creator/ProjectTreeMapCreator-1.0-all.jar --name=example.pu --path=/Users/tamura-masayuki/IdeaProjects/ProjectTreeMapCreator --depth=4
 ```
+### パラメータ
+--name or -n：出力ファイル名
+--depth or -d：対象とするディレクトリの深さ
+--path or -p：調査対象のディレクトリパス
 
 ## ProjectTreeMap画像の出力方法
 ```shell
