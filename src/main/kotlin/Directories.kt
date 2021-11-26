@@ -42,7 +42,9 @@ data class Directories(val directoryList: ArrayList<Directory>) {
         val root = directoryList.filterIsInstance<Directory.RootDirectory>().firstOrNull() ?: return
         val output = arrayListOf<String>()
         recursiveTaskForPlantUml(output, root)
-        val file = File(fileName)
+        val outputDir = File("output")
+        outputDir.mkdir()
+        val file = File(outputDir, fileName)
         runCatching {
             FileWriter(file).use { writer ->
                 writer.write("@startsalt\n{\n{T\n")
