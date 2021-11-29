@@ -1,6 +1,9 @@
 # ProjectTreeMapCreator 
 ## PlantUML用のファイル出力方法
 ```shell
+$ java -jar lib/project-tree-map-creator/ProjectTreeMapCreator-1.0-all.jar --name=<ファイル名> --path=<プロジェクトツリーを作成したいターゲットのpath> --depth=<対象とするディレクトリの深さ>
+
+例１
 $ java -jar lib/project-tree-map-creator/ProjectTreeMapCreator-1.0-all.jar --name=example.pu --path=/Users/tamura-masayuki/IdeaProjects/ProjectTreeMapCreator --depth=4
 ```
 ### パラメータ
