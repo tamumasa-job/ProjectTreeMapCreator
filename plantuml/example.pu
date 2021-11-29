@@ -2,19 +2,19 @@
 {
 {T
 +ProjectTreeMapCreator
-++ plantuml
-++ docs
-+++ uml
-++ project-tree-map-creator
-+++ plantuml
+++ plantuml | PlantUML用のテキスト
+++ docs | このリポジトリに関連したドキュメント
++++ uml | PlantUML用のテキストをもとに生成された画像
+++ project-tree-map-creator | PlantUML用のテキストを自動生成するためのライブラリを実装したソースコード
++++ plantuml | PlantUML用のテキスト（こちらは開発時のデバッグ用途なので無視して頂きたいです）
 +++ gradle
 +++ .gradle
 +++ build
 +++ .idea
-+++ src
-++ lib
-+++ plantuml
-+++ project-tree-map-creator
++++ src | ソースコード
+++ lib | ライブラリ
++++ plantuml | PlantUML用のテキストから画像を出力する際に使用しているライブラリ
++++ project-tree-map-creator | PlantUML用のテキストを自動生成するためのライブラリ 
 }
 }
 @endsalt
