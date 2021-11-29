@@ -12,7 +12,11 @@ $ java -jar lib/project-tree-map-creator/ProjectTreeMapCreator-1.0-all.jar --nam
 
 ## ProjectTreeMap画像の出力方法
 ```shell
-$ make plantuml.buildAndRun
+$ make plantuml.run
+
+or
+
+$ make plantuml.docker.buildAndRun
 ```
 
 ## 生成されるProjectTreeMap画像の例
