@@ -20,7 +20,7 @@ $ make plantuml.docker.buildAndRun
 ```
 
 ## 生成されるProjectTreeMap画像の例
-![example](https://user-images.githubusercontent.com/93519300/143557970-901e65d5-cc6c-495d-a1b4-4ab37e39de0d.png)
+![example](https://user-images.githubusercontent.com/93519300/143811273-a94a8133-08eb-4a6e-b1be-f53a27c8c8d2.png)
 
 
 ## jarファイルの作成からやる必要がある場合
